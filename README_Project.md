@@ -24,11 +24,17 @@ This repository contains our implementation and experiments with decision tree a
      ```
 2. **Install dependencies:**
      ```bash
+     cd 02_Experiments/source_code
+     python3 -m venv .venv
+     source .venv/bin/activate
+     pip install --upgrade pip
      pip install -r requirements.txt
      ```
-3. **Run the main script:**
+3. **Run 3 file notebooks to get the results:**
      ```bash
-     python main.py
+     linear_model_boolean.ipynb
+     linear_model_cts_features.ipynb
+     sum_of_squares.ipynb
      ```
 
 ---
