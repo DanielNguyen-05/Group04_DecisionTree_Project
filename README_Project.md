@@ -18,15 +18,14 @@ Dự án này là một phần của môn học CSC14003 - Nhập môn Trí tu�
 Toàn bộ dự án được tổ chức theo cấu trúc thư mục dưới đây để đảm bảo tính rõ ràng và khoa học:
 
 ```
-GroupXX_DecisionTree_Project/
+Group04_DecisionTree_Project/
 |-- 01_Report/
 |   |-- main_report.pdf         # File báo cáo chính
 |   |-- references.bib          # File BibTeX chứa tài liệu tham khảo
 |   `-- figures/                # Thư mục chứa các hình ảnh dùng trong báo cáo
 |-- 02_Experiments/
 |   |-- source_code/            # Toàn bộ mã nguồn để chạy thực nghiệm
-|   |-- datasets/               # (Nếu có) Dữ liệu được sử dụng hoặc script tạo dữ liệu
-|   `-- results/                # Thư mục lưu kết quả thực nghiệm (biểu đồ, bảng...)
+|   `-- results/                # Thư mục lưu kết quả thực nghiệm 
 |-- 03_Presentation/
 |   |-- slides.pdf              # File trình chiếu cho buổi báo cáo cuối kỳ
 |   `-- demo_materials/         # (Nếu có) Các tài liệu demo khác
