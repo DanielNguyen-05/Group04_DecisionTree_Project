@@ -76,7 +76,7 @@ Các thư viện chính bao gồm:
 
 ### Hướng dẫn Chạy Thực nghiệm
 
-Các kịch bản thực nghiệm được viết bằng Python và đặt trong thư mục `02_Experiments/source_codeSsimulations`.
+Các kịch bản thực nghiệm được viết bằng Python và đặt trong thư mục `02_Experiments/source_code/Simulations`.
 
 Để chạy từng thực nghiệm tương ứng với mỗi biểu đồ trong bài báo, hãy chạy các file script riêng lẻ:
 
