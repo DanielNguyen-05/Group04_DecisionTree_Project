@@ -1,1 +1,33 @@
-https://www.overleaf.com/project/6894177514feca22c2cc1433
+Link Google Form for more questions: https://docs.google.com/forms/d/e/1FAIpQLScOBtZG3VtKuwSZUXfKFr562LIoGuwiGlWjMZW2hc5t6DkWcA/viewform
+
+### I. Câu hỏi về Tổng quan và Động lực (Kiểm tra mức độ hiểu vấn đề)
+
+1.  **Câu hỏi cốt lõi:** Các bạn có thể tóm tắt đóng góp chính của bài báo này trong 1-2 câu không? Vấn đề lớn nhất mà bài báo này chỉ ra về Cây quyết định là gì?
+2.  **Về tiêu đề:** Cụm từ "cảnh báo" (a cautionary tale) trong tiêu đề bài báo gốc có ý nghĩa gì? Nó cảnh báo ai và về điều gì?
+3.  **Về bối cảnh:** Tại sao tác giả lại chọn **mô hình cộng tính thưa (sparse additive models)** làm "phép thử" để nghiên cứu điểm yếu của Cây quyết định, thay vì một loại mô hình nào khác?
+4.  **Về mục tiêu:** Mục tiêu của việc thiết lập một "cận dưới lý thuyết" (theoretical lower bound) là gì? Tại sao việc chỉ ra rằng Cây quyết định hoạt động kém hơn "tốc độ tối ưu" (optimal minimax rate) lại quan trọng?
+
+### II. Câu hỏi về Kiến thức Nền tảng và Thuật ngữ (Kiểm tra sự nắm vững khái niệm)
+
+5.  **Thiên kiến Quy nạp:** Các bạn hãy giải thích rõ hơn về "thiên kiến quy nạp" (inductive bias) của Cây quyết định mà bài báo đề cập. Nó là gì và tại sao nó lại là một vấn đề trong trường hợp này?
+6.  **Nguyên nhân gốc rễ:** Bài báo chỉ ra nguyên nhân của sự kém hiệu quả **không phải** do tính "tham lam" (greediness) mà là do cơ chế "chỉ lấy trung bình trên lá" (leaf-only averaging). Các bạn có thể giải thích sự khác biệt giữa hai khái niệm này và tại sao "leaf-only averaging" lại gây ra vấn đề không?
+7.  **Cây ALA:** Cây ALA (Axis-Aligned partition with Leaf-only Averaging) là gì? Nó có quan hệ như thế nào với thuật toán CART kinh điển? Có phải mọi cây CART đều là cây ALA không?
+8.  **Lý thuyết Tốc độ-Biến dạng:** Các bạn có thể giải thích một cách trực quan về Lý thuyết Tốc độ-Biến dạng (Rate-Distortion Theory) không? Vai trò của "độ méo" (distortion) và "tốc độ" (rate) trong phân tích của bài báo là gì?
+
+### III. Câu hỏi về Phương pháp và Kỹ thuật (Kiểm tra mức độ hiểu sâu)
+
+9.  **Phân rã Rủi ro:** Trong Định lý 4.1 về phân rã rủi ro, hãy cho biết khi chúng ta tăng số lượng lá (tăng độ phức tạp của cây), thành phần Bias và Variance sẽ thay đổi như thế nào? Điều này liên quan gì đến sự đánh đổi (trade-off) kinh điển trong học máy?
+10. **Sự khác biệt giữa các mô hình:** Tại sao kết quả chặn dưới cho mô hình cộng tính trên không gian **Boolean** (Định lý 4.4) lại có hình thái hoàn toàn khác so với trên không gian **liên tục** (Định lý 4.3)? Điều gì trong không gian Boolean cho phép Bias có thể bằng 0?
+11. **Từ lý thuyết đến thực nghiệm:** Kết quả thực nghiệm (các biểu đồ MSE) đã xác thực cho kết luận lý thuyết của bài báo như thế nào? Các đường biểu diễn của CART có xu hướng giảm chậm, điều này nói lên điều gì về tốc độ hội tụ của nó?
+
+### IV. Câu hỏi về Kết quả và Phản biện (Kiểm tra tư duy phản biện và phân tích)
+
+12. **Vai trò của Random Forest:** Tại sao Random Forest (RF) lại có hiệu suất tốt hơn hẳn CART trong các thí nghiệm và dường như "thoát khỏi" được lời cảnh báo này? Điều này có liên quan gì đến luận điểm của Breiman về "sự đa dạng của các cây" không?
+13. **Honest vs. Dishonest CART:** Trong thí nghiệm, sự khác biệt giữa "Honest CART" và "Dishonest CART" là gì? Tại sao "Honest CART" thường cho kết quả tốt hơn một chút?
+14. **Giới hạn của nghiên cứu:** Theo các bạn, hạn chế lớn nhất của nghiên cứu này là gì? Liệu kết luận này có thể áp dụng rộng rãi cho mọi bài toán thực tế hay không?
+
+### V. Câu hỏi Mở rộng và Liên hệ Thực tiễn
+
+15. **Lời khuyên thực tiễn:** Vậy sau khi nghiên cứu bài báo này, nếu một khách hàng đưa cho bạn một bộ dữ liệu và yêu cầu xây dựng mô hình, khi nào bạn sẽ **thận trọng** khi sử dụng Cây quyết định (hoặc các thuật toán dựa trên cây như Gradient Boosting)?
+16. **Hướng cải tiến:** Bài báo có đề xuất một vài hướng cải tiến như "co cụm phân cấp" (hierarchical shrinkage) hay "tổng hợp toàn cục" (global pooling). Các bạn có thể giải thích ý tưởng đằng sau các phương pháp này không?
+17. **Nếu là tác giả:** Nếu là nhóm tác giả, các bạn sẽ thực hiện nghiên cứu tiếp theo nào để củng cố thêm lập luận hoặc mở rộng phạm vi của bài báo này?
