@@ -1,0 +1,14 @@
+Đường dẫn đến Google Form để gửi thêm câu hỏi và thảo luận:
+https://docs.google.com/forms/d/e/1FAIpQLScOBtZG3VtKuwSZUXfKFr562LIoGuwiGlWjMZW2hc5t6DkWcA/viewform
+
+Bộ câu hỏi thảo luận trọng tâm
+
+Câu 1: Vì sao tác giả lựa chọn mô hình cộng tính thưa (sparse additive models) làm phép thử để phơi bày điểm yếu của Cây quyết định, thay vì chọn một mô hình khác?
+Câu 2: Việc thiết lập một cận dưới lý thuyết (theoretical lower bound) mang ý nghĩa gì? Tại sao việc chứng minh rằng Cây quyết định hoạt động chậm hơn tốc độ tối ưu (optimal minimax rate) lại quan trọng trong phân tích lý thuyết?
+Câu 3: Bài báo nhắc đến thiên kiến quy nạp (inductive bias) của Cây quyết định. Thiên kiến này cụ thể là gì, và tại sao nó lại trở thành một điểm bất lợi trong ngữ cảnh được nghiên cứu?
+Câu 4: Theo tác giả, điểm yếu không xuất phát từ tính tham lam (greediness) trong cách chia nhánh, mà từ cơ chế “chỉ lấy trung bình trên lá” (leaf-only averaging). Hai khái niệm này khác nhau thế nào, và vì sao leaf-only averaging lại dẫn đến hiệu quả kém?
+Câu 5: Cây ALA (Axis-Aligned partition with Leaf-only Averaging) là gì? Nó liên hệ như thế nào với thuật toán CART kinh điển, và có phải mọi cây CART đều thuộc dạng ALA không?
+Câu 6: Hãy giải thích một cách trực quan về Lý thuyết Tốc độ – Biến dạng (Rate–Distortion Theory). Trong bối cảnh bài báo, tốc độ (rate) và độ méo (distortion) được hiểu và sử dụng ra sao?
+Câu 7: Vì sao Random Forest (RF) cho kết quả vượt trội hơn CART trong các thí nghiệm và dường như "tránh được" lời cảnh báo trong tiêu đề? Điều này có liên hệ thế nào với luận điểm của Breiman về sự đa dạng của các cây thành phần?
+Câu 8: Theo quan điểm của bạn, hạn chế lớn nhất của nghiên cứu này là gì? Liệu các kết luận có thể được áp dụng rộng rãi cho hầu hết các bài toán thực tế hay không?
+Câu 9: Bài báo gợi ý một số hướng cải tiến như “co cụm phân cấp” (hierarchical shrinkage) và “tổng hợp toàn cục” (global pooling). Bạn có thể giải thích ý tưởng cốt lõi của những phương pháp này và cách chúng có thể khắc phục điểm yếu của CART không?
