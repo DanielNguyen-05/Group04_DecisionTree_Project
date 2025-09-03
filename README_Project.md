@@ -25,11 +25,12 @@ Group04_DecisionTree_Project/
 |   `-- figures/                # Thư mục chứa các hình ảnh dùng trong báo cáo
 |-- 02_Experiments/
 |   |-- source_code/            # Toàn bộ mã nguồn để chạy thực nghiệm
+|   |-- datasets/               # Thư mục để lưu data cho việc train
 |   `-- results/                # Thư mục lưu kết quả thực nghiệm 
 |-- 03_Presentation/
 |   |-- slides.pdf              # File trình chiếu cho buổi báo cáo cuối kỳ
-|   `-- demo_materials/         # (Nếu có) Các tài liệu demo khác
-`-- README_Project.md           # File hướng dẫn này
+|   `-- demo_materials/         # Các tài liệu demo khác như Google Form cho Q&A, link Youtube tới video thuyết trình của nhóm
+`-- README_Project.md           # File hướng dẫn cài đặt và chạy thực nghiệm
 ```
 
 ---
